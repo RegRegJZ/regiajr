@@ -1,9 +1,9 @@
 body {
-  background-color: #FFFFE0; /*kuning */
-  font-family: Arial, sans-serif;
-  color: #191970; /*biru gelap */
-}
 
+  background-color: #75A2BF; 
+  font-family: Arial, sans-serif;
+  color: #191970; 
+}
 .kartu-profil {
   width: 300px;
   margin: 50px auto;
