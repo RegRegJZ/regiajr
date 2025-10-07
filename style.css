@@ -13,7 +13,16 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
 }
-.kartu-profil img {
-  width: 150px;
-  border-radius: 50px;
+.profil-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; /* Jarak bawah untuk spacing */
+}
+.profil-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran; hapus jika ingin persegi */
+    object-fit: cover; /* Memastikan gambar mengisi ukuran tanpa distorsi */
+    border: 3px solid #ddd; /* Border tipis untuk efek profesional; sesuaikan warna jika perlu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan ringan untuk depth */
 }
