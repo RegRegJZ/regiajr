@@ -19,7 +19,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
-    border-radius: 80%;
 }
 
 main {
@@ -51,7 +50,7 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan ringan untuk depth */
 }
 .action-buttons {
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 footer {
